@@ -8,13 +8,13 @@ Trang web khóa học tiếng Anh giao tiếp **No-Think Speak**.
 
 ## Link trang web (miễn phí)
 
-**https://tranthainguyendevdeveloper117-gocoder.github.io/easy-english/**
+**https://thaophuong1234.github.io/easy-english/**
 
 Tên trên link đã có **easy-english**. GitHub không cấp sẵn `easyenglish.com` — muốn `.com` thì phải mua tên miền.
 
 ## Bật GitHub Pages (1 lần)
 
-1. Mở https://github.com/TRANTHAINGUYENDEVDEVELOPER117-GOCODER/easy-english/settings/pages
+1. Mở https://github.com/thaophuong1234/easy-english/settings/pages
 2. Source: **Deploy from a branch**
 3. Branch: `main` → folder `/ (root)` → **Save**
 4. Đợi 1–3 phút, mở link web ở trên
