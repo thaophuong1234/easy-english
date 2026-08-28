@@ -98,9 +98,28 @@ form.addEventListener('submit', (e) => {
   console.log('Đăng ký:', {
     name: form.name.value,
     phone: form.phone.value,
-    email: form.email.value,
+    telegram: form.telegram.value,
     message: form.message.value,
   });
   form.hidden = true;
   formSuccess.hidden = false;
+});
+
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightboxImg');
+document.querySelectorAll('[data-lightbox]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    lightboxImg.src = btn.dataset.lightbox;
+    lightbox.hidden = false;
+  });
+});
+document.querySelector('.lightbox-close').addEventListener('click', () => {
+  lightbox.hidden = true;
+  lightboxImg.src = '';
+});
+lightbox.addEventListener('click', (e) => {
+  if (e.target === lightbox) {
+    lightbox.hidden = true;
+    lightboxImg.src = '';
+  }
 });
